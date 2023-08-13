@@ -4,12 +4,19 @@ body, h1, h2, p {
     padding: 0;
 }
 
+/* Dark background and text color */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
 /* Basic styling for header */
 header {
-    background-color: #333;
-    color: white;
+    background-color: #181818;
     padding: 20px;
     text-align: center;
+    border-bottom: 1px solid #333;
 }
 
 /* Styling for navigation menu */
@@ -24,7 +31,8 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
+    font-size: 16px;
 }
 
 /* Styling for sections */
@@ -34,9 +42,11 @@ section {
 
 /* Styling for project showcases */
 .project {
-    border: 1px solid #ddd;
+    background-color: #222;
+    border: 1px solid #444;
     padding: 20px;
     margin-bottom: 20px;
+    border-radius: 8px;
 }
 
 .project img {
@@ -46,27 +56,28 @@ section {
 }
 
 .project h3 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-bottom: 10px;
 }
 
 .project p {
-    font-size: 1rem;
-    color: #555;
+    font-size: 1.2rem;
+    color: #aaa;
     margin-bottom: 10px;
 }
 
 .project a {
     text-decoration: none;
-    background-color: #333;
-    color: white;
+    background-color: #555;
+    color: #ffffff;
     padding: 8px 16px;
     border-radius: 4px;
     transition: background-color 0.3s;
+    font-size: 14px;
 }
 
 .project a:hover {
-    background-color: #555;
+    background-color: #777;
 }
 
 /* Add more styles as needed */
